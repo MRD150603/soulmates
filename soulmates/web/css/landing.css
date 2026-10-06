@@ -433,7 +433,7 @@ p { margin: 0; }
 	.wrap { width: calc(100% - 32px); }
 	.features-grid { grid-template-columns: 1fr; }
 	.testimonials { padding: 40px 26px 32px; border-radius: 28px; }
-	.t-slides { min-height: 290px; }
+	.t-slides { min-height: 250px; }
 	.testimonial blockquote { font-size: 17px; }
 	.t-tab { width: 50px; height: 50px; }
 	.rating-card strong { font-size: 44px; }
@@ -450,4 +450,45 @@ p { margin: 0; }
 	.footer-grid { grid-template-columns: 1fr 1fr; }
 	.footer-brand, .footer-connect { grid-column: span 2; }
 	.cta-qr { display: none; }
+
+	/* Tighter vertical rhythm on phones */
+	.section { padding: 56px 0; }
+	.section-head { margin-bottom: 32px; }
+	.section-head p, .reviews-summary > p { margin-top: 12px; font-size: 16px; }
+	.hero { padding: 96px 0 44px; }
+	.hero-lead { margin-top: 18px; font-size: 17px; }
+	.hero .stores { margin-top: 24px; }
+	.hero-proof { margin-top: 28px; padding-top: 20px; }
+	.hero-visual { margin-top: 12px; }
+	.ticker { padding: 12px 0; }
+	.ticker-track span { font-size: 18px; }
+	.features-grid { gap: 14px; }
+	.feature { padding: 24px 22px; }
+	.feature-ico { width: 48px; height: 48px; margin-bottom: 20px; }
+	.feature-num { top: 22px; right: 22px; font-size: 32px; }
+	.how-grid { gap: 28px; }
+	.how-visual img { width: min(280px, 80%); }
+	.steps { margin-top: 24px; }
+	.steps li { grid-template-columns: 44px 1fr; gap: 14px; padding: 16px 0; }
+	.how .btn { display: flex; width: fit-content; margin: 28px auto 0; }
+	.safety-grid { gap: 16px; }
+	.safety-card img { margin-top: 24px; width: 54%; }
+	.perks { margin-top: 28px; }
+	.stats { padding: 0 0 56px; }
+	.stats-box { grid-template-columns: repeat(3, 1fr); gap: 20px 12px; padding: 28px 22px; }
+	.stats-box h2 { grid-column: 1 / -1; font-size: 24px; }
+	.stat strong { font-size: 34px; }
+	.stat span { font-size: 13px; margin-top: 4px; }
+	.cta-visual img { width: min(240px, 70%); }
+	.reviews-layout { gap: 28px; }
+	.rating-card { margin-top: 24px; }
+	.testimonials { padding: 32px 22px 26px; }
+	.t-slides { margin-top: 14px; }
+	.t-tabs { margin-top: 22px; padding-top: 20px; }
+	.cta { padding: 16px 0 56px; }
+	.cta-box { padding: 36px 22px 0; border-radius: 28px; }
+	.cta-actions { margin: 24px 0 20px; }
+	.site-footer { padding: 48px 0 28px; }
+	.footer-grid { gap: 28px; }
+	.footer-bottom { margin-top: 36px; }
 }
